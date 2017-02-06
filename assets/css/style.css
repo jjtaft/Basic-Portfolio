@@ -1,1 +1,184 @@
-style.css
+
+body{
+	background-image: url("ignasi_pattern_s.png");
+}
+
+h1{
+	color: white;
+	background: #4aaaa5;
+	text-align: center;
+	font-family: 'Georgia';
+	position: fixed;
+	top: 5px;
+	left: 65px;
+	z-index: 99;
+	padding: 31px;
+	margin: auto;
+}
+
+header{
+	position: fixed;
+	top: 5px;
+	width: 100%;
+	height: 97px;
+	background: #ffffff;
+	border-bottom: 2px solid;
+	border-color: #ccc;
+	text-align: right;
+	float: left;
+}
+
+li {
+	color: #777777;
+	font-family: sans-serif;
+	display: inline;
+	padding: 15px;
+	border-right: 1px solid;
+	border-color: #ccc;
+}
+
+ul{
+	list-style-type: none;
+	padding: 20px;
+}
+
+h2 {
+	color: #4aaaa5;
+	border-bottom: 2px solid;
+	border-color: #ccc;
+	padding: 15px;
+	font-family: georgia;
+}
+
+#wordswords {
+	border-style: solid;
+	border-color: #ccc;
+	background: #ffffff;
+	height: inherit;
+	width: 650px;
+	position: relative;
+	top: 130px;
+	left: 40px;
+	padding: 10px;
+}
+
+#me {
+	padding: 5px;
+	float: left;
+}
+
+
+h3 {
+	color: #4aaaa5;
+	border-bottom: 2px solid;
+	border-color: #ccc;
+	font-family: Georgia;
+	padding: 8px;
+
+}
+
+#connections {
+	background: #ffffff;
+	border-style: solid;
+	border-color: #ccc;
+	width: 270px;
+	height: 140px;
+	text-align: center;
+	position: fixed;
+	right: 50px;
+	top: 140px;
+	padding: 25px;
+}
+
+
+footer {
+	text-align: center;
+	padding: 45px;
+	color: #ccc;
+	width: 100%;
+	background: #666666;
+	border-top: 10px solid;
+	border-color: #4aaaa5;
+	position: fixed;
+	bottom: 0;
+}
+
+p {
+	color: #777777;
+	font-family: sans-serif;
+	text-align: justify;
+	padding: 5px;
+	margin: 15px;
+}
+
+#forms {
+	border-style: solid;
+	border-color: #ccc;
+	height: inherit;
+	width: 650px;
+	background: #ffffff;
+	position: relative;
+	left: 50px;
+	top: 130px;
+	padding: 40px;
+	color: #777777;
+	font-family: sans-serif;
+	
+}
+
+#fields {
+	color: #ccc;
+	font-family: sans-serif;
+	padding: 5px;
+	height: 20px;
+	width: 500px;
+}
+
+#message {
+	padding: 5px;
+	width: 500px;
+	height: 200px;
+}
+
+#nubbins {
+	height: 50px;
+	padding: 5px;
+}
+
+#submit {
+	margin-top: 5px;
+	color: #777777;
+}
+
+#portfolio {
+	border: 3px solid;
+	border-color: #ccc;
+	background: #ffffff;
+	height: 600px;
+	width: 650px;
+	position: inherit;
+	left: 40px;
+	top: 140px;
+
+}
+
+#pics {
+	float: left;
+	z-index: 1;
+	padding: 8px;
+	position: relative;
+}
+
+h4 {
+	color: #ffffff;
+	background: #4aaaa5;
+	float: left;
+	height: 20px;
+	width: inherit;
+	z-index: 99;
+	font-family: sans-serif;
+	padding: 5px;
+	position: relative;
+	text-align: center;
+
+}
