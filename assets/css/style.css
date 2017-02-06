@@ -1,6 +1,6 @@
 
 body{
-	background-image: url("ignasi_pattern_s.png");
+	background-image: url("../images/ignasi_pattern_s.png");
 }
 
 h1{
@@ -46,8 +46,9 @@ h2 {
 	color: #4aaaa5;
 	border-bottom: 2px solid;
 	border-color: #ccc;
-	padding: 15px;
+	padding: 20px;
 	font-family: georgia;
+	text-align: left;
 }
 
 #wordswords {
@@ -74,6 +75,7 @@ h3 {
 	border-color: #ccc;
 	font-family: Georgia;
 	padding: 8px;
+	
 
 }
 
@@ -82,12 +84,12 @@ h3 {
 	border-style: solid;
 	border-color: #ccc;
 	width: 270px;
-	height: 140px;
+	height: 145px;
 	text-align: center;
 	position: fixed;
 	right: 50px;
 	top: 140px;
-	padding: 25px;
+	padding: 26px;
 }
 
 
@@ -141,7 +143,7 @@ p {
 }
 
 #nubbins {
-	height: 50px;
+	height: 65px;
 	padding: 5px;
 }
 
@@ -156,29 +158,31 @@ p {
 	background: #ffffff;
 	height: 600px;
 	width: 650px;
-	position: inherit;
+	position: fixed;
+	float: left;
 	left: 40px;
 	top: 140px;
-
 }
 
 #pics {
 	float: left;
 	z-index: 1;
-	padding: 8px;
+	padding: 10px;
 	position: relative;
+	width: 160px;
 }
 
 h4 {
 	color: #ffffff;
 	background: #4aaaa5;
 	float: left;
-	height: 20px;
-	width: inherit;
+	height: 30px;
+	width: 150px;
 	z-index: 99;
 	font-family: sans-serif;
-	padding: 5px;
+	padding: 10px;
 	position: relative;
 	text-align: center;
+	display: inline-table;
 
 }
